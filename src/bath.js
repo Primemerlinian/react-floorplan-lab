@@ -1,12 +1,11 @@
 // CodeSandbox.js
-
-function CodeSandbox(props) {
+function Bath(props) {
   return (
-    <div>
-      <h1>CodeSandbox</h1>
+    <div className='bath' id={`bath-${props.size}`}>
+      <h3>{props.size} Bath</h3>
     </div>
   );
 }
 
 // Must export the component's function (or class)
-export default CodeSandbox;
+export default Bath;

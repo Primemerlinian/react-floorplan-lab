@@ -1,12 +1,12 @@
 // CodeSandbox.js
 
-function Oven(props) {
+function Sink(props) {
   return (
-    <div className="Oven">
-      <h1>Oven</h1>
+    <div>
+      <h1>Sink</h1>
     </div>
   );
 }
 
 // Must export the component's function (or class)
-export default Oven;
+export default Sink;
